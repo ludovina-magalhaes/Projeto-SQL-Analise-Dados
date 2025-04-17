@@ -15,7 +15,7 @@ Este valor pode ser calculado da seguinte forma:
  - Acrescentando ou subtraindo o saldo acumulado do mês anterior.
  Na primeira parte vamos construir uma Query principal para podermos fazer as nossa pesquisas e o resultado esta nesta tabela:
 ![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
-e o código da talela esta aqui: [Código da parte 1](script_total_tranfers.sql)
+e o código da talela esta aqui: [Script_total_tranfers](script_total_tranfers.sql)
 
 
 
