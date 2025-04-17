@@ -19,14 +19,14 @@ Na primeira parte vamos construir a Query total_transfers para podermos fazer as
 O objectivo foi criar uma tabela consolidada (total_transfers) que reunisse todas as transacções efectuadas pelos clientes, independentemente do tipo — sejam elas movimentações PIX, transferências de entrada ou de saída.
 
 2. Identificação das tabelas 
-Indentificamos três tabelas principais que armazenam os diferentes tipos de transacções:
-pix_movements – movimentações realizadas via PIX;
-transfer_ins – transferências de entrada (dinheiro recebido);
-transfer_outs – transferências de saída (dinheiro enviado).
+Indentificamos três tabelas principais que armazenam os diferentes tipos de transacções:  
+pix_movements – movimentações realizadas via PIX;  
+transfer_ins – transferências de entrada (dinheiro recebido);  
+transfer_outs – transferências de saída (dinheiro enviado).  
 Depois identificamos tablelasque são utilizadas para auxiliar e enriquecer os dados:
-accounts – contém informações das contas associadas;
-customers – permite obter os dados dos clientes (como o nome);
-time – utilizada para extrair informações temporais das transacções.
+accounts – contém informações das contas associadas;   
+customers – permite obter os dados dos clientes (como o nome);   
+time – utilizada para extrair informações temporais das transacções.   
 
 4. Estrutura da consulta com UNION ALL
 A consolidação dos dados foi feita através do operador UNION ALL, que junta os resultados de três consultas SELECT, cada uma direccionada a uma das tabelas de transacções.
