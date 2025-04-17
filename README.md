@@ -1,4 +1,4 @@
- ## Projeto Prático - Construindo Consultaspara Análise de Dados
+ ## Projeto Prático - Construindo Consultas para Análise de Dados
  ### Case para Analista de Dados
 
 A Analista de Negócios, responsável por analisar o comportamento dos clientes e que consome directamente os dados do Ambiente de Data Warehouse, necessita de obter todos os Saldos Mensais das Contas entre janeiro de 2020 e dezembro de 2020.
@@ -14,9 +14,8 @@ Este valor pode ser calculado da seguinte forma:
  - Subtraindo todos os valores enviados (movimentos de saída);
  - Acrescentando ou subtraindo o saldo acumulado do mês anterior.
  Na primeira parte vamos construir uma Query principal para podermos fazer as nossa pesquisas e o resultado esta nesta tabela:
-![image](https://github.com/user-attachments/assets/3345d5fc-c494-4f1b-bc3e-63a6c1367afe)
-
-[Código da parte 1](script_total_tranfers.sql)
+![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
+e o código da talela esta aqui: [Código da parte 1](script_total_tranfers.sql)
 
 
 
