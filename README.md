@@ -15,6 +15,7 @@ Este valor pode ser calculado da seguinte forma:
  - Acrescentando ou subtraindo o saldo acumulado do mês anterior.
 
 
+[Ver Relatório](script_total_tranfers.sql)
 
 
 [Ver o código de exemplo]([Projeto_SQL/blob/main/script_total_tranfers.sql](https://github.com/ludovina-magalhaes/Projeto_SQL/blob/main/script_total_tranfers.sql))
