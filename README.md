@@ -1,6 +1,7 @@
  ## Projeto Prático - Construindo Consultas para Análise de Dados
  ### Case para Analista de Dados
 
+##### Primeira Parte:
 A Analista de Negócios, responsável por analisar o comportamento dos clientes e que consome directamente os dados do Ambiente de Data Warehouse, necessita de obter todos os Saldos Mensais das Contas entre janeiro de 2020 e dezembro de 2020.
 
 #### Diretrizes:
@@ -37,6 +38,14 @@ Após a execução das subconsultas, a tabela total_transfers será populada com
 O resultado da Query total_tranfers é a seguinte:
 ![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
 e o código da talela esta aqui: [Script_total_tranfers](script_total_tranfers.sql)
+
+##### Segunda Parte: 
+O objetivo é determinar o saldo mensal acumulado de cada cliente ao longo do ano de 2020, considerando tanto as transferências recebidas (entradas) quanto as transferências enviadas (saídas)..
+Resumo do Processo:
+Identificação dos meses presentes nas transações.
+Cálculo das transferências recebidas (pix_in e transfer_ins) por cliente, mês a mês.
+Cálculo das transferências enviadas (pix_out e transfer_outs) por cliente, mês a mês.
+Cálculo do saldo acumulado mensal para cada cliente, com base nas transferências recebidas e enviadas.
 
 
 
