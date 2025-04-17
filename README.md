@@ -13,10 +13,10 @@ Este valor pode ser calculado da seguinte forma:
  - Somando todos os valores recebidos (movimentos de entrada);
  - Subtraindo todos os valores enviados (movimentos de saída);
  - Acrescentando ou subtraindo o saldo acumulado do mês anterior.
+ Na primeira parte vamos construir uma Query principal para podermos fazer as nossa pesquisas e 
+
+[Código da parte 1](script_total_tranfers.sql)
 
 
-[Ver Relatório](script_total_tranfers.sql)
 
-
-[Ver o código de exemplo]([Projeto_SQL/blob/main/script_total_tranfers.sql](https://github.com/ludovina-magalhaes/Projeto_SQL/blob/main/script_total_tranfers.sql))
 
