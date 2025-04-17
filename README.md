@@ -34,10 +34,11 @@ As três subconsultas são unidas usando UNION ALL, o que permite combinar todas
 4. Resultado Final:
 Após a execução das subconsultas, a tabela total_transfers será populada com todas as transações de 2020, com as informações desejadas sobre cada transação, incluindo o tipo de transação, valor, status, cliente, e o mês em que a transação ocorreu.
 
+O resultado da Query total_tranfers é a seguinte:
 ![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
 e o código da talela esta aqui: [Script_total_tranfers](script_total_tranfers.sql)
 
-Sa segunda parte 
+
 
 
 
