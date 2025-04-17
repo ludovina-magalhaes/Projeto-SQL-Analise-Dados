@@ -44,3 +44,5 @@ PARTITION BY customer_id ORDER BY month
 ), 2) AS saldo_mensal
 FROM transfers_all
 ORDER BY full_name, month;
+
+
