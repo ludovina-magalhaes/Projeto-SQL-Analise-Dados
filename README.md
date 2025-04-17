@@ -17,7 +17,7 @@ Este valor pode ser calculado da seguinte forma:
 
 Na primeira parte vamos construir a Query total_transfers para podermos fazer as nossa pesquisas:
 1. Definição do objectivo
-O objectivo foi criar uma tabela consolidada (total_transfers) que reunisse todas as transacções efectuadas pelos clientes, independentemente do tipo — sejam elas movimentações PIX, transferências de entrada ou de saída.
+O objectivo foi criar uma tabela (total_transfers) que reunisse todas as transacções efectuadas pelos clientes, independentemente do tipo — sejam elas movimentações PIX, transferências de entrada ou de saída.
 
 2. Identificação das tabelas 
 Indentificamos três tabelas principais que armazenam os diferentes tipos de transacções:  
@@ -37,7 +37,7 @@ Após a execução das subconsultas, a tabela total_transfers será populada com
 
 O resultado da Query total_tranfers é a seguinte:
 ![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
-e o código da talela esta aqui: [Script_total_tranfers](script_total_tranfers.sql)
+e o código da talela esta aqui: [Query_total_transfers](script_total_tranfers.sql)
 
 ##### Segunda Parte: 
 O objetivo é determinar o saldo mensal acumulado de cada cliente ao longo do ano de 2020, considerando tanto as transferências recebidas (entradas) quanto as transferências enviadas (saídas)..
@@ -47,6 +47,10 @@ Cálculo das transferências recebidas (pix_in e transfer_ins) por cliente, mês
 Cálculo das transferências enviadas (pix_out e transfer_outs) por cliente, mês a mês.
 Cálculo do saldo acumulado mensal para cada cliente, com base nas transferências recebidas e enviadas.
 
+
+O resultado da Query Saldo Mensal é a seguinte:
+![image](https://github.com/user-attachments/assets/76ed69ef-d63b-485f-a9f0-8453f9c14e39)
+e o código da talela esta aqui: [Query_Saldo_Mensal](Respostas.sql)
 
 
 
