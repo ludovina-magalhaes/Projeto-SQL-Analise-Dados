@@ -17,5 +17,5 @@ Este valor pode ser calculado da seguinte forma:
 
 
 
-[Ver o código de exemplo](Projeto_SQL/blob/main/script_total_tranfers.sql)
+[Ver o código de exemplo]([Projeto_SQL/blob/main/script_total_tranfers.sql](https://github.com/ludovina-magalhaes/Projeto_SQL/blob/main/script_total_tranfers.sql))
 
