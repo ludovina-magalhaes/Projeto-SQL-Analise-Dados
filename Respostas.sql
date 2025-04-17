@@ -1,10 +1,10 @@
--- 1. Criar lista com todos os meses existentes na tabela
+-- 1. Criar uma lista com todos os meses existentes na tabela
 WITH all_months AS (
 SELECT DISTINCT month
 FROM `my-project-sql-435409.projeto.total_transfers`
 ),
 
--- 2. Calcular entradas e saídas em uma única CTE
+-- 2. Calcular as entradas e saídas numa única CTE
 transfers_combined AS (
 SELECT
 month,
@@ -17,7 +17,9 @@ amount ELSE 0 END) AS total_transfer_out
 FROM `my-project-sql-435409.projeto.total_transfers`
 GROUP BY month, customer_id, full_name
 ),
--- 3. Combinar todos os meses com todos os clientes
+
+  
+-- 3. Combinação de todos os meses com todos os clientes
 transfers_all AS (
 SELECT
 m.month,
@@ -32,7 +34,7 @@ transfers_combined) c
 LEFT JOIN transfers_combined tc
 ON m.month = tc.month AND c.customer_id = tc.customer_id
 )
--- 4. Calcular saldo acumulado por cliente
+-- 4. Calcular o saldo acumulado por cliente
 SELECT
 month,
 customer_id,
