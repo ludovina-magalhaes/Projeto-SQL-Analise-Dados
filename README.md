@@ -29,11 +29,11 @@ customers – permite obter os dados dos clientes (como o nome);
 time – utilizada para extrair informações temporais das transacções.   
 
 4. Estrutura da consulta com UNION ALL
-A consolidação dos dados foi feita através do operador UNION ALL, que junta os resultados de três consultas SELECT, cada uma direccionada a uma das tabelas de transacções.
+As três subconsultas são unidas usando UNION ALL, o que permite combinar todas as transações (Pix, transferências de entrada e transferências de saída) numa única tabela.
 
+4. Resultado Final:
+Após a execução das subconsultas, a tabela total_transfers será populada com todas as transações de 2020, com as informações desejadas sobre cada transação, incluindo o tipo de transação, valor, status, cliente, e o mês em que a transação ocorreu.
 
-
- 
 ![image](https://github.com/user-attachments/assets/71e595f7-b152-4787-9aaf-088b30e7040e)
 e o código da talela esta aqui: [Script_total_tranfers](script_total_tranfers.sql)
 
