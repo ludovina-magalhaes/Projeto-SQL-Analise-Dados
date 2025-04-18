@@ -1,4 +1,4 @@
- ## Projeto Prático - Construindo Consultas para Análise de Dados
+ ## Projeto Prático - Consultas para Análise de Dados
  ### Case para Analista de Dados
 
 ### Primeira Parte:
