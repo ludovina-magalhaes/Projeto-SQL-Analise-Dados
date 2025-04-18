@@ -19,6 +19,10 @@ Este valor pode ser calculado da seguinte forma:
  - Subtraindo todos os valores enviados (movimentos de saída);
  - Acrescentando ou subtraindo o saldo acumulado do mês anterior.
 
+#### Modelo Relacional
+Na seguinte imagem temos o **Modelo Relacional** do case, com as **Tabelas Fato** e **Tabelas Dimensão** 
+![image](https://github.com/user-attachments/assets/a9847cea-63ec-4844-9229-49de945fd9f0)
+
 Na primeira parte vamos construir a **Query total_transfers** para podermos fazer as nossa pesquisas:
 #### Definição do objectivo
 O objectivo foi criar uma tabela (total_transfers) que reunisse todas as transacções efectuadas pelos clientes, independentemente do tipo — sejam elas movimentações PIX, transferências de entrada ou de saída.
